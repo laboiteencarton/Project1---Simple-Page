@@ -1,0 +1,27 @@
+.who {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 600px;
+}
+    
+.who-content-img {
+    flex:1;
+    background: url(../img/team.jpg) center center/cover;
+    min-height: 300px;
+}
+
+.who-content-txt {
+    flex:1;
+    padding:4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    h2 {
+        margin-bottom: 2rem;
+    }
+    p {
+        font-size:1.3rem;
+        line-height: 1.8;
+    }
+}

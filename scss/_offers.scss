@@ -1,0 +1,36 @@
+.offer{
+    padding:10rem 1rem;
+}
+
+.offer-list{
+    
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    
+}
+.offer-elem {
+    border:1px solid #ddd;
+    border-right: 4px solid #9b59b6;
+    background: white;
+    margin:1rem;
+    flex:1;
+}
+
+
+.offer-elem-img{
+    width: 100%;
+}
+
+.offer-elem-txt {
+    padding:2rem;
+    text-align: center;
+}
+
+.offer-separator {
+    height: 1px;
+    width: 50px;
+    margin:1rem auto;
+    background:var(--gray);
+}
+

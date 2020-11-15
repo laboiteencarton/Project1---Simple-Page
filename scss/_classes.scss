@@ -1,0 +1,21 @@
+.container{
+    display:block;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.title {
+    font-size:2rem;
+    font-weight: 300;
+    margin-bottom:3rem;
+}
+
+strong {
+    color:#9b59b6;
+    font-weight: 700;
+}
+
+.bg-dark {
+    background:var(--gray);
+    color:white;
+}
